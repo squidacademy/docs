@@ -1,18 +1,18 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Acme Docs",
-  "description": "Developer documentation for the Acme Platform.",
+  "name": "Squid Academy Knowledge Center",
+  "description": "Role-based guides, how-tos, and policies for the LMS and tournament platform—built for partners, schools, teachers, students, and teams.",
   "colors": {
-    "primary": "#0EA5E9",
-    "light": "#F8FAFC",
-    "dark": "#0F172A"
+    "primary": "#09BECF",
+    "light": "#F4F2F3",
+    "dark": "#000000"
   },
 
   "logo": {
-    "light": "/logo-light.svg",
-    "dark": "/logo-dark.svg",
-    "href": "https://acme.example"
+    "light": "/logo-light.png",
+    "dark": "/logo-dark.png",
+    "href": "https://squid.academy"
   },
   "favicon": {
     "light": "/favicon.svg",
@@ -26,7 +26,7 @@
 
   "navbar": {
     "links": [
-      { "label": "Community", "href": "https://community.example" }
+      { "label": "Community", "href": "https://discord.gg/Ru4gFYjFEp" }
     ],
     "primary": {
       "type": "button",
