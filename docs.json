@@ -30,33 +30,28 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Get Started",
-      "href": "https://app.example/signup"
+      "label": "Contact Us",
+      "href": "mailto:knowledgecenter@squid.gg"
     }
   },
 
   "footer": {
     "socials": {
-      "x": "https://x.com/acme",
-      "linkedin": "https://www.linkedin.com/company/acme",
-      "github": "https://github.com/acme",
-      "slack": "https://acme.example/slack"
+      "facebook": "https://www.facebook.com/SquidAcademy",
+      "linkedin": "https://www.linkedin.com/company/squidacademy",
     },
     "links": [
       {
         "header": "Resources",
         "items": [
-          { "label": "Customers", "href": "https://acme.example/customers" },
-          { "label": "Enterprise", "href": "https://acme.example/enterprise" },
-          { "label": "Request Demo", "href": "https://acme.example/demo" }
+          { "label": "Request Demo", "href": "https://squid.academy/#contact" }
         ]
       },
       {
         "header": "Company",
         "items": [
-          { "label": "Careers", "href": "https://acme.example/careers" },
-          { "label": "Blog", "href": "https://acme.example/blog" },
-          { "label": "Privacy Policy", "href": "https://acme.example/legal/privacy" }
+          { "label": "Blog", "href": "https://squid.academy/insights" },
+          { "label": "Privacy Policy", "href": "https://squidacademy.mintlify.app/platform/privacy-policy" }
         ]
       }
     ]
