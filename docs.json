@@ -70,8 +70,8 @@
           {
             "group": "Platform",
             "pages": [
-              "platform/privacy-policy",
               "platform/terms-and-conditions",
+              "platform/privacy-policy",
               "platform/data-processing-addendum",
               "platform/sub-processor-list",
               "platform/data-retention-deletion",
@@ -83,14 +83,15 @@
           {
             "group": "User Guides",
             "pages": [
-              "user-guides/players",
-              "user-guides/students",
-              "user-guides/teachers",
-              "user-guides/team-captains",
               "user-guides/partners",
               "user-guides/resellers",
               "user-guides/org-admins",
-              "user-guides/tournament-admins"
+              "user-guides/teachers",
+              "user-guides/students",
+              "user-guides/tournament-admins",
+              "user-guides/team-captains",
+              "user-guides/players"
+              
             ]
           }
         ]
