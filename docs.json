@@ -1,57 +1,111 @@
 {
-  "name": "Your Project Name",
-  "logo": "/logo.png",
-  "description": "Brief description of your project or documentation site.",
-  "theme":"mint",
-"navigation": {
-    "groups": [
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Acme Docs",
+  "description": "Developer documentation for the Acme Platform.",
+  "colors": {
+    "primary": "#0EA5E9",
+    "light": "#F8FAFC",
+    "dark": "#0F172A"
+  },
+
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg",
+    "href": "https://acme.example"
+  },
+  "favicon": {
+    "light": "/favicon.svg",
+    "dark": "/favicon-dark.svg"
+  },
+
+  "appearance": {
+    "default": "system",
+    "strict": false
+  },
+
+  "navbar": {
+    "links": [
+      { "label": "Community", "href": "https://community.example" }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Get Started",
+      "href": "https://app.example/signup"
+    }
+  },
+
+  "footer": {
+    "socials": {
+      "x": "https://x.com/acme",
+      "linkedin": "https://www.linkedin.com/company/acme",
+      "github": "https://github.com/acme",
+      "slack": "https://acme.example/slack"
+    },
+    "links": [
       {
-        "group": "Getting started",
-        "pages": [
-          "introduction",
-          "installation",
-          "quickstart"
+        "header": "Resources",
+        "items": [
+          { "label": "Customers", "href": "https://acme.example/customers" },
+          { "label": "Enterprise", "href": "https://acme.example/enterprise" },
+          { "label": "Request Demo", "href": "https://acme.example/demo" }
         ]
       },
       {
-        "group": "Guides",
-        "pages": [
-          "configuration",
-          "usage",
-          "best-practices"
-        ]
-      },
-      {
-        "group": "API reference",
-        "pages": [
-          "api/overview",
-          "api/authentication",
-          "api/endpoints",
-          "api/errors"
+        "header": "Company",
+        "items": [
+          { "label": "Careers", "href": "https://acme.example/careers" },
+          { "label": "Blog", "href": "https://acme.example/blog" },
+          { "label": "Privacy Policy", "href": "https://acme.example/legal/privacy" }
         ]
       }
     ]
   },
-  "sidebar": {
-    "collapsible": true
+
+  "navigation": {
+    "anchors": [
+      {
+        "anchor": "Documentation",
+        "icon": "book-open",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": ["index", "quickstart", "installation"]
+          },
+          {
+            "group": "Customization",
+            "pages": ["settings", "pages", "navigation", "themes", "custom-domain"]
+          }
+        ]
+      }
+    ],
+    "tabs": [
+      {
+        "tab": "Guides",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Core concepts",
+            "pages": ["writing-content/page", "writing-content/text"]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "square-terminal",
+        "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
+      }
+    ],
+    "dropdowns": [
+      {
+        "dropdown": "Changelog",
+        "icon": "history",
+        "pages": ["changelog"]
+      }
+    ]
   },
-  "colors": {
-    "primary": "#3b82f6",
-    "light": "#f9fafb",
-    "dark": "#111827"
-  },
-  "topbarLinks": [
-    {
-      "name": "GitHub",
-      "url": "https://github.com/your-repo"
-    },
-    {
-      "name": "Website",
-      "url": "https://yourdomain.com"
-    }
-  ],
-  "social": {
-    "twitter": "yourtwitterhandle",
-    "linkedin": "yourlinkedin"
+
+  "errors": {
+    "404": { "redirect": true }
   }
 }
