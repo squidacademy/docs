@@ -66,45 +66,37 @@
     "anchors": [
       {
         "anchor": "Documentation",
-        "icon": "book-open",
         "groups": [
           {
-            "group": "Getting started",
-            "pages": ["index", "quickstart", "installation"]
+            "group": "Platform",
+            "pages": [
+              "platform/privacy-policy",
+              "platform/terms-and-conditions",
+              "platform/data-processing-addendum",
+              "platform/sub-processor-list",
+              "platform/data-retention-deletion",
+              "platform/intl-data-transfers",
+              "platform/parental-content-guidelines",
+              "platform/security-incident-response"
+            ]
           },
           {
-            "group": "Customization",
-            "pages": ["settings", "pages", "navigation", "themes", "custom-domain"]
+            "group": "User Guides",
+            "pages": [
+              "user-guides/players",
+              "user-guides/students",
+              "user-guides/teachers",
+              "user-guides/team-captains",
+              "user-guides/partners",
+              "user-guides/resellers",
+              "user-guides/org-admins",
+              "user-guides/tournament-admins"
+            ]
           }
         ]
-      }
-    ],
-    "tabs": [
-      {
-        "tab": "Guides",
-        "icon": "book",
-        "groups": [
-          {
-            "group": "Core concepts",
-            "pages": ["writing-content/page", "writing-content/text"]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "icon": "square-terminal",
-        "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
-      }
-    ],
-    "dropdowns": [
-      {
-        "dropdown": "Changelog",
-        "icon": "history",
-        "pages": ["changelog"]
       }
     ]
   },
-
   "errors": {
     "404": { "redirect": true }
   }
