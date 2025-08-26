@@ -10,13 +10,13 @@
   },
 
   "logo": {
-    "light": "/logo-light.png",
-    "dark": "/logo-dark.png",
+    "light": "/images/logo-light.png",
+    "dark": "/images/logo-dark.png",
     "href": "https://squid.academy"
   },
   "favicon": {
-    "light": "/favicon.svg",
-    "dark": "/favicon-dark.svg"
+    "light": "/images/favicon.svg",
+    "dark": "/images/favicon-dark.svg"
   },
 
   "appearance": {
