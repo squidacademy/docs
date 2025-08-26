@@ -1,43 +1,57 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Squid Academy Docs",
-  "colors": {
-    "primary": "#09BECF",
-    "light": "#F4F2F3",
-    "dark": "#000000"
+  "name": "Your Project Name",
+  "logo": "/logo.png",
+  "description": "Brief description of your project or documentation site.",
+  "theme":"mint",
+"navigation": {
+    "groups": [
+      {
+        "group": "Getting started",
+        "pages": [
+          "introduction",
+          "installation",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "configuration",
+          "usage",
+          "best-practices"
+        ]
+      },
+      {
+        "group": "API reference",
+        "pages": [
+          "api/overview",
+          "api/authentication",
+          "api/endpoints",
+          "api/errors"
+        ]
+      }
+    ]
   },
-  "logo": "/images/logo.png",
-  "favicon": "/images/favicon.svg",
-  "navigation": [
+  "sidebar": {
+    "collapsible": true
+  },
+  "colors": {
+    "primary": "#3b82f6",
+    "light": "#f9fafb",
+    "dark": "#111827"
+  },
+  "topbarLinks": [
     {
-      "tab": "Docs",
-      "groups": [
-        {
-          "group": "Platform (LMS + Tournament)",
-          "pages": [
-            "platform/terms-and-conditions",
-            "platform/privacy-policy",
-            "platform/dpa",
-            "platform/data-retention-deletion",
-            "platform/intl-data-transfers",
-            "platform/parental-content-guide",
-            "platform/security-incident-response",
-            "platform/privacy-request-form",
-            "platform/sub-processor-list"
-          ]
-        },
-        {
-          "group": "User Guides",
-          "pages": [
-            "user-guides/partners",
-            "user-guides/resellers",
-            "user-guides/org-admins",
-            "user-guides/teachers",
-            "user-guides/students"
-          ]
-        }
-      ]
+      "name": "GitHub",
+      "url": "https://github.com/your-repo"
+    },
+    {
+      "name": "Website",
+      "url": "https://yourdomain.com"
     }
-  ]
+  ],
+  "social": {
+    "twitter": "yourtwitterhandle",
+    "linkedin": "yourlinkedin"
+  }
 }
