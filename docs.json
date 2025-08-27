@@ -34,7 +34,35 @@
       "href": "mailto:knowledgecenter@squid.gg"
     }
   },
-
+"navigation": {
+  "anchors": [
+    { "anchor": "Introduction", "pages": ["/introduction/welcome"] },
+    { "anchor": "Platform", "pages": [
+      "/platform/terms-and-conditions",
+      "/platform/privacy-policy",
+      "/platform/data-processing-addendum",
+      "/platform/sub-processor-list",
+      "/platform/data-retention-deletion",
+      "/platform/intl-data-transfers",
+      "/platform/parental-consent-guide",
+      "/platform/security-incident-response",
+      "/platform/privacy-request-form"
+    ]},
+    { "anchor": "User Guides", "pages": [
+      "/user-guides/partners",
+      "/user-guides/resellers",
+      "/user-guides/org-admins",
+      "/user-guides/teachers",
+      "/user-guides/students",
+      "/user-guides/team-captains",
+      "/user-guides/players",
+      "/user-guides/tournament-admins"
+    ]}
+  ]
+},
+"redirects": [
+  { "source": "/", "destination": "/introduction/welcome" }
+],
   "footer": {
     "socials": {
       "facebook": "https://www.facebook.com/SquidAcademy",
