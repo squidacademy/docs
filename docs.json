@@ -10,13 +10,13 @@
   },
 
   "logo": {
-    "light": "/public/images/logo-light.png",
-    "dark": "/public/images/logo-dark.png",
+    "light": "/images/logo-light.png",
+    "dark": "/images/logo-dark.png",
     "href": "https://squid.academy"
   },
   "favicon": {
-    "light": "/public/images/favicon.svg",
-    "dark": "/public/images/favicon-dark.svg"
+    "light": "/images/favicon.svg",
+    "dark": "/images/favicon-dark.svg"
   },
 
   "appearance": {
@@ -80,44 +80,6 @@
         "items": [
           { "label": "Blog", "href": "https://squid.academy/insights" },
           { "label": "Privacy Policy", "href": "https://squidacademy.mintlify.app/platform/privacy-policy" }
-        ]
-      }
-    ]
-  },
-
-  "navigation": {
-    "anchors": [
-      {
-        "anchor": "Documentation",
-        "groups": [
-          {
-            "group": "Platform",
-            "pages": [
-              "platform/terms-and-conditions",
-              "platform/privacy-policy",
-              "platform/privacy-request-form",
-              "platform/data-processing-addendum",
-              "platform/sub-processor-list",
-              "platform/data-retention-deletion",
-              "platform/intl-data-transfers",
-              "platform/parental-content-guidelines",
-              "platform/security-incident-response"
-            ]
-          },
-          {
-            "group": "User Guides",
-            "pages": [
-              "user-guides/partners",
-              "user-guides/resellers",
-              "user-guides/org-admins",
-              "user-guides/teachers",
-              "user-guides/students",
-              "user-guides/tournament-admins",
-              "user-guides/team-captains",
-              "user-guides/players"
-              
-            ]
-          }
         ]
       }
     ]
