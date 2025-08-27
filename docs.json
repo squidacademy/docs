@@ -10,13 +10,13 @@
   },
 
   "logo": {
-    "light": "/images/logo-light.png",
-    "dark": "/images/logo-dark.png",
+    "light": "/public/images/logo-light.png",
+    "dark": "/public/images/logo-dark.png",
     "href": "https://squid.academy"
   },
   "favicon": {
-    "light": "/images/favicon.svg",
-    "dark": "/images/favicon-dark.svg"
+    "light": "/public/images/favicon.svg",
+    "dark": "/public/images/favicon-dark.svg"
   },
 
   "appearance": {
@@ -36,28 +36,62 @@
   },
 "navigation": {
   "anchors": [
-    { "anchor": "Introduction", "pages": ["/introduction/welcome"] },
-    { "anchor": "Platform", "pages": [
-      "/platform/terms-and-conditions",
-      "/platform/privacy-policy",
-      "/platform/data-processing-addendum",
-      "/platform/sub-processor-list",
-      "/platform/data-retention-deletion",
-      "/platform/intl-data-transfers",
-      "/platform/parental-consent-guide",
-      "/platform/security-incident-response",
-      "/platform/privacy-request-form"
-    ]},
-    { "anchor": "User Guides", "pages": [
-      "/user-guides/partners",
-      "/user-guides/resellers",
-      "/user-guides/org-admins",
-      "/user-guides/teachers",
-      "/user-guides/students",
-      "/user-guides/team-captains",
-      "/user-guides/players",
-      "/user-guides/tournament-admins"
-    ]}
+    {
+      "anchor": "Introduction",
+      "pages": ["/introduction/welcome"]
+    },
+    {
+      "anchor": "Platform",
+      "groups": [
+        {
+          "group": "Legal & Privacy",
+          "pages": [
+            "/platform/terms-and-conditions",
+            "/platform/privacy-policy",
+            "/platform/data-processing-addendum",
+            "/platform/intl-data-transfers",
+            "/platform/sub-processor-list",
+            "/platform/data-retention-deletion"
+          ]
+        },
+        {
+          "group": "Security & Safety",
+          "pages": [
+            "/platform/security-incident-response",
+            "/platform/parental-content-guidelines"
+          ]
+        },
+        {
+          "group": "Requests",
+          "pages": [
+            "/platform/privacy-request-form"
+          ]
+        }
+      ]
+    },
+    {
+      "anchor": "User Guides",
+      "groups": [
+        {
+          "group": "LMS",
+          "pages": [
+            "/user-guides/partners",
+            "/user-guides/resellers",
+            "/user-guides/org-admins",
+            "/user-guides/teachers",
+            "/user-guides/students"
+          ]
+        },
+        {
+          "group": "Tournament",
+          "pages": [
+            "/user-guides/team-captains",
+            "/user-guides/players",
+            "/user-guides/tournament-admins"
+          ]
+        }
+      ]
+    }
   ]
 },
 "redirects": [
