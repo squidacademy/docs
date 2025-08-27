@@ -34,6 +34,13 @@
       "href": "mailto:knowledgecenter@squid.gg"
     }
   },
+  "seo": {
+  "metatags": {
+    "og:image": "/images/social-preview.png",
+    "twitter:card": "summary_large_image",
+    "twitter:image": "/images/social-preview.png"
+  }
+},
 "navigation": {
   "tabs": [
     {
