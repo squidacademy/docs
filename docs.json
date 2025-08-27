@@ -35,13 +35,13 @@
     }
   },
 "navigation": {
-  "anchors": [
+  "tabs": [
     {
-      "anchor": "Introduction",
+      "tab": "Introduction",
       "pages": ["/introduction/welcome"]
     },
     {
-      "anchor": "Platform",
+      "tab": "Platform",
       "groups": [
         {
           "group": "Legal & Privacy",
@@ -58,7 +58,7 @@
           "group": "Security & Safety",
           "pages": [
             "/platform/security-incident-response",
-            "/platform/parental-content-guidelines"
+            "/platform/parental-content-guide"
           ]
         },
         {
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "anchor": "User Guides",
+      "tab": "User Guides",
       "groups": [
         {
           "group": "LMS",
