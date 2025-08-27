@@ -3,13 +3,18 @@ title: Welcome
 description: Learn about Squid Academy and how to get started.
 ---
 
-{/* Teaser video */}
-<!-- Privacy-enhanced embed -->
-<iframe width="100%" height="420"
-  src="https://www.youtube-nocookie.com/embed/QsSGfzXF9sY"
-  title="Intro to Squid Academy" frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen />
+{/* 16:9 responsive video */}
+<div style={{position:'relative', paddingTop:'56.25%', borderRadius:'12px', overflow:'hidden'}}>
+  <iframe
+    src="https://www.youtube-nocookie.com/embed/QsSGfzXF9sY"
+    title="Intro to Squid Academy"
+    style={{position:'absolute', inset:0, width:'100%', height:'100%'}}
+    frameBorder="0"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen
+  />
+</div>
 
 Squid Academy is a role-based learning and competition platform for schools, teams, and partners. Use the quick links below to jump into guides, policies, and FAQs.
 
