@@ -1,33 +1,27 @@
 ---
-title: Feedback Hub
-description: Share ideas, report bugs, upvote features, and ask questions.
+title: Feedback
+description: Tell us what’s working—and what to improve—so we can make Squid Academy better for you.
 ---
 
-# Squid Academy Feedback Hub
+## Quick reactions
+Use the **👍 / 👎** widget at the bottom of any page to signal if it helped you.
 
-<div style={{border:'1px solid rgba(255,255,255,.12)', borderRadius:12, padding:12, marginBottom:16}}>
-  Help us improve Squid Academy. Post ideas, report bugs, upvote features, or ask questions below.
-</div>
+## Suggest a small fix
+Click **Suggest edit** in the page footer to open a ready-made PR for quick changes (typos, clarifications, missing step).
 
-<style>
-{`
-  @media (max-width: 768px) { .feedback-iframe { display:none } .feedback-cta { display:block } }
-  @media (min-width: 769px) { .feedback-iframe { display:block } .feedback-cta { display:none } }
-`}
-</style>
+## Request a feature or report a bug
+Use our GitHub forms so we get the details we need:
 
-<div className="feedback-iframe" style={{height:'78vh', minHeight:720, border:'1px solid rgba(255,255,255,.08)', borderRadius:12, overflow:'hidden'}}>
-  <iframe
-    src="https://YOUR-FIDER-DOMAIN/"  /* e.g., https://feedback.squid.academy */
-    title="Squid Academy Feedback Hub"
-    style={{width:'100%', height:'100%', border:0}}
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-  />
-</div>
+- **New idea or improvement**  
+  👉 <a href="https://github.com/squidacademy/docs/issues/new?assignees=&labels=feedback&projects=&template=feature_request.yml&title=%5BIdea%5D%3A+">Open a feature request</a>
 
-<div className="feedback-cta" style={{marginTop:16}}>
-  <a href="https://YOUR-FIDER-DOMAIN/" target="_blank" rel="noopener" className="button">
-    Open Feedback Hub
-  </a>
-</div>
+- **Something broken / unclear**  
+  👉 <a href="https://github.com/squidacademy/docs/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml&title=%5BBug%5D%3A+">Report a docs bug</a>
+
+- **Simple typo / small wording fix**  
+  👉 <a href="https://github.com/squidacademy/docs/issues/new?assignees=&labels=docs&projects=&template=docs_fix.yml&title=%5BDocs%5D%3A+">Suggest a small docs fix</a>
+
+---
+
+### Prefer email?
+For general questions from schools or partners, contact **support@squid.academy**.
