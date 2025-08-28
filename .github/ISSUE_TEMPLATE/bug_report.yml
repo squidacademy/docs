@@ -1,1 +1,23 @@
-
+name: Bug report (docs)
+description: Something is broken, missing, or incorrect
+labels: ["bug"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Page URL
+      placeholder: https://squidacademy.mintlify.app/...
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      placeholder: Ex. Step 3 screenshot is outdated; the button is now “Save”
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to see?
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce (if relevant)
+      placeholder: 1) Open ... 2) Click ... 3) See ...
