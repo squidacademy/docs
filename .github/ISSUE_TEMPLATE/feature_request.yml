@@ -1,1 +1,23 @@
-
+name: Feature request / improvement
+description: Propose a new feature or improvement to these docs
+labels: ["feedback"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      placeholder: Ex. Teachers get stuck when configuring SSO...
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Your proposed solution
+      placeholder: Ex. Add a step-by-step with screenshots for Google SSO...
+  - type: input
+    id: page
+    attributes:
+      label: Related page URL (if any)
+      placeholder: https://squidacademy.mintlify.app/...
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
