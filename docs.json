@@ -21,7 +21,7 @@
     "default": "system",
     "strict": false
   },
-"navbar": {
+  "navbar": {
   "links": [
     { "label": "Community", "href": "https://discord.gg/Ru4gFYjFEp" },
     { "label": "Feedback", "href": "https://squidacademy.mintlify.app/platform/feedback" }
@@ -130,5 +130,10 @@
   },
   "errors": {
     "404": { "redirect": true }
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": false,
+    "raiseIssue": false
   }
 }
