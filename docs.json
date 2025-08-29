@@ -23,8 +23,7 @@
   },
   "navbar": {
     "links": [
-      { "label": "Community", "href": "https://discord.gg/Ru4gFYjFEp" },
-      { "label": "Feedback", "href": "https://squidacademy.mintlify.app/feedback/index" }
+      { "label": "Community", "href": "https://discord.gg/Ru4gFYjFEp" }
     ],
     "primary": {
       "type": "button",
