@@ -22,15 +22,16 @@
     "strict": false
   },
   "navbar": {
-    "links": [
-      { "label": "Community", "href": "https://discord.gg/Ru4gFYjFEp" }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Contact Us",
-      "href": "mailto:support@squid.gg"
-    }
-  },
+  "links": [
+    { "label": "Community", "href": "https://discord.gg/Ru4gFYjFEp" },
+    { "label": "Feedback", "href": "https://squidacademy.mintlify.app/feedback" }
+  ],
+  "primary": {
+    "type": "button",
+    "label": "Contact Us",
+    "href": "mailto:support@squid.gg"
+  }
+},
   "seo": {
     "metatags": {
       "og:image": "/images/social-preview.png",
@@ -101,32 +102,29 @@
         "pages": ["/faqs"]
       },
       {
-        "tab": "Feedback",
-        "groups": [
-          {
-            "group": "Share Feedback",
-            "pages": [
-              "/feedback/index",
-              "/feedback/ideas",
-              "/feedback/bugs",
-              "/feedback/support",
-              "/feedback/classroom"
-            ]
-          },
-          {
-            "group": "Updates",
-            "pages": [
-              "/feedback/announcements"
-            ]
-          }
-        ]
-      }
-    ]
-  },
+  "tab": "Feedback",
+  "groups": [
+    {
+      "group": "Share Feedback",
+      "pages": [
+        "/feedback",
+        "/feedback/ideas",
+        "/feedback/bugs",
+        "/feedback/support",
+        "/feedback/classroom"
+      ]
+    },
+    {
+      "group": "Updates",
+      "pages": ["/feedback/announcements"]
+    }
+  ]
+},
   "redirects": [
-    { "source": "/", "destination": "/introduction/welcome" },
-    { "source": "/platform/feedback", "destination": "/feedback/index" }
-  ],
+  { "source": "/", "destination": "/introduction/welcome" },
+  { "source": "/platform/feedback", "destination": "/feedback" },
+  { "source": "/feedback/index", "destination": "/feedback" }
+],
   "footer": {
     "socials": {
       "facebook": "https://www.facebook.com/SquidAcademy",
