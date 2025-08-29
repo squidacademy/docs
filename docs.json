@@ -24,7 +24,7 @@
   "navbar": {
     "links": [
       { "label": "Community", "href": "https://discord.gg/Ru4gFYjFEp" },
-      { "label": "Feedback", "href": "https://squidacademy.mintlify.app/feedback/index"}
+      { "label": "Feedback", "href": "https://squidacademy.mintlify.app/feedback/index" }
     ],
     "primary": {
       "type": "button",
@@ -105,18 +105,21 @@
         "tab": "Feedback",
         "groups": [
           {
-            "group": "Share Feedback",
+            "group": "Forms",
             "pages": [
               "/feedback/index",
               "/feedback/ideas",
               "/feedback/bugs",
               "/feedback/support",
-              "/feedback/classroom"
+              "/feedback/classroom",
+              "/feedback/subscribe"
             ]
           },
           {
-            "group": "Updates",
-            "pages": ["/feedback/announcements"]
+            "group": "Announcements",
+            "pages": [
+              "/feedback/announcements"
+            ]
           }
         ]
       }
