@@ -106,7 +106,7 @@
           {
             "group": "Forms",
             "pages": [
-              "/feedback/index",
+              "/feedback",
               "/feedback/ideas",
               "/feedback/bugs",
               "/feedback/support",
