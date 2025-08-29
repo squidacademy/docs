@@ -116,7 +116,9 @@
           },
           {
             "group": "Updates",
-            "pages": ["/feedback/announcements"]
+            "pages": [
+              "/feedback/announcements"
+            ]
           }
         ]
       }
