@@ -21,28 +21,20 @@
     "default": "system",
     "strict": false
   },
-  "navbar": {
-    "links": [
-      { "label": "Community", "href": "https://discord.gg/Ru4gFYjFEp" }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Contact Us",
-      "href": "mailto:support@squid.gg"
-    }
-  },
-  "seo": {
-    "metatags": {
-      "og:image": "/images/social-preview.png",
-      "twitter:card": "summary_large_image",
-      "twitter:image": "/images/social-preview.png"
-    }
-  },
+  "links": [
+    { "label": "Community", "href": "https://discord.gg/9y6FyPEr" },
+    { "label": "Contact Us", "href": "mailto:support@squid.gg" }
+  ],
   "navigation": {
     "tabs": [
       {
         "tab": "Introduction",
-        "pages": ["/introduction/welcome"]
+        "groups": [
+          {
+            "group": "Start here",
+            "pages": ["/introduction/welcome"]
+          }
+        ]
       },
       {
         "tab": "Platform",
@@ -55,7 +47,8 @@
               "/platform/data-processing-addendum",
               "/platform/intl-data-transfers",
               "/platform/sub-processor-list",
-              "/platform/data-retention-deletion"
+              "/platform/data-retention-deletion",
+              "/platform/your-privacy-rights"
             ]
           },
           {
@@ -67,9 +60,7 @@
           },
           {
             "group": "Requests",
-            "pages": [
-              "/platform/privacy-request-form"
-            ]
+            "pages": ["/platform/privacy-request-form"]
           }
         ]
       },
@@ -98,62 +89,29 @@
       },
       {
         "tab": "FAQs",
-        "pages": ["/faqs"]
-      },
-      {
-        "tab": "Feedback",
         "groups": [
           {
-            "group": "Forms",
-            "pages": [
-              "/feedback",
-              "/feedback/ideas",
-              "/feedback/bugs",
-              "/feedback/support",
-              "/feedback/classroom",
-              "/feedback/subscribe"
-            ]
-          },
-          {
-            "group": "Announcements",
-            "pages": ["/feedback/announcements"]
+            "group": "Common questions",
+            "pages": ["/faqs"]
           }
         ]
       }
     ]
   },
   "redirects": [
-    { "source": "/", "destination": "/introduction/welcome" },
-    { "source": "/platform/feedback", "destination": "/feedback/index" },
-    { "source": "/feedback", "destination": "/feedback/index" }
+    { "source": "/", "destination": "/introduction/welcome" }
   ],
+  "feedback": {
+    "enabled": false,
+    "thumbsRating": false,
+    "suggestions": false,
+    "npsSurvey": false
+  },
   "footer": {
     "socials": {
       "facebook": "https://www.facebook.com/SquidAcademy",
-      "linkedin": "https://www.linkedin.com/company/squidacademy"
-    },
-    "links": [
-      {
-        "header": "Resources",
-        "items": [
-          { "label": "Request Demo", "href": "https://squid.academy/#contact" }
-        ]
-      },
-      {
-        "header": "Company",
-        "items": [
-          { "label": "Blog", "href": "https://squid.academy/insights" },
-          { "label": "Privacy Policy", "href": "https://squidacademy.mintlify.app/platform/privacy-policy" }
-        ]
-      }
-    ]
-  },
-  "errors": {
-    "404": { "redirect": true }
-  },
-  "feedback": {
-    "thumbsRating": true,
-    "suggestEdit": false,
-    "raiseIssue": false
+      "linkedin": "https://www.linkedin.com/company/squidacademy",
+      "youtube": "https://www.youtube.com/@squidacademy"
+    }
   }
 }
