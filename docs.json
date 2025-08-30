@@ -25,79 +25,84 @@
     { "label": "Community", "href": "https://discord.gg/9y6FyPEr" },
     { "label": "Contact Us", "href": "mailto:support@squid.gg" }
   ],
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Introduction",
-        "groups": [
-          {
-            "group": "Start here",
-            "pages": ["/introduction/welcome"]
-          }
-        ]
-      },
-      {
-        "tab": "Platform",
-        "groups": [
-          {
-            "group": "Legal & Privacy",
-            "pages": [
-              "/platform/terms-and-conditions",
-              "/platform/privacy-policy",
-              "/platform/data-processing-addendum",
-              "/platform/intl-data-transfers",
-              "/platform/sub-processor-list",
-              "/platform/data-retention-deletion",
-              "/platform/your-privacy-rights"
-            ]
-          },
-          {
-            "group": "Security & Safety",
-            "pages": [
-              "/platform/security-incident-response",
-              "/platform/parental-content-guide"
-            ]
-          },
-          {
-            "group": "Requests",
-            "pages": ["/platform/privacy-request-form"]
-          }
-        ]
-      },
-      {
-        "tab": "User Guides",
-        "groups": [
-          {
-            "group": "LMS",
-            "pages": [
-              "/user-guides/partners",
-              "/user-guides/resellers",
-              "/user-guides/org-admins",
-              "/user-guides/teachers",
-              "/user-guides/students"
-            ]
-          },
-          {
-            "group": "Tournament",
-            "pages": [
-              "/user-guides/team-captains",
-              "/user-guides/players",
-              "/user-guides/tournament-admins"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "FAQs",
-        "groups": [
-          {
-            "group": "Common questions",
-            "pages": ["/faqs"]
-          }
-        ]
-      }
-    ]
-  },
+ "navigation": {
+  "tabs": [
+    {
+      "tab": "Introduction",
+      "groups": [
+        {
+          "group": "Start here",
+          "pages": [
+            "/introduction/welcome",
+            "/introduction/get-started",
+            "/introduction/about",
+            "/introduction/support"
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "Platform",
+      "groups": [
+        {
+          "group": "Legal & Privacy",
+          "pages": [
+            "/platform/terms-and-conditions",
+            "/platform/privacy-policy",
+            "/platform/data-processing-addendum",
+            "/platform/intl-data-transfers",
+            "/platform/sub-processor-list",
+            "/platform/data-retention-deletion",
+            "/platform/your-privacy-rights"
+          ]
+        },
+        {
+          "group": "Security & Safety",
+          "pages": [
+            "/platform/security-incident-response",
+            "/platform/parental-content-guide"
+          ]
+        },
+        {
+          "group": "Requests",
+          "pages": ["/platform/privacy-request-form"]
+        }
+      ]
+    },
+    {
+      "tab": "User Guides",
+      "groups": [
+        {
+          "group": "LMS",
+          "pages": [
+            "/user-guides/partners",
+            "/user-guides/resellers",
+            "/user-guides/org-admins",
+            "/user-guides/teachers",
+            "/user-guides/students"
+          ]
+        },
+        {
+          "group": "Tournament",
+          "pages": [
+            "/user-guides/team-captains",
+            "/user-guides/players",
+            "/user-guides/tournament-admins"
+          ]
+        }
+      ]
+    },
+    {
+      "tab": "FAQs",
+      "groups": [
+        {
+          "group": "Common questions",
+          "pages": ["/faqs"]
+        }
+      ]
+    }
+  ]
+},
   "redirects": [
     { "source": "/", "destination": "/introduction/welcome" }
   ],
