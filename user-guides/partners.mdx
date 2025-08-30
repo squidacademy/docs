@@ -1,60 +1,80 @@
 ---
-title: "Partner"
-description: "How partners oversee regions—create resellers and organizations, assign org admins, enable courses, and monitor usage."
+title: "Partners"
+description: "How Partners oversee regions—create Resellers and Organizations, assign Org Admins, enable modules/courses, and monitor usage."
 ---
 
 ## Overview
 
-Partners manage a region or portfolio of organizations. You can work directly or appoint **Resellers** (who manage a subset of your orgs). As a Partner you can create and manage organizations (schools, universities, LAN centers), assign **Org Admins**, set quotas (max students/teachers/classes), enable **modules/courses**, and monitor usage. If needed, you can also create users (Org Admins, Teachers, Students) on an organization’s behalf.
+**Partners** manage a region or portfolio of **organizations** and may appoint **Resellers** to manage a subset of those orgs. As a Partner you can create and manage **Organizations** (schools, universities, LAN centers), assign **Org Admins**, set quotas (max students/teachers/classes), enable **modules/courses**, and monitor usage. You can also create users (Org Admins, Teachers, Students) on an organization’s behalf when needed.
 
-## Getting Started
+<Callout type="info">
+**Organization** = a school, university, LAN center, or similar entity under your management.  
+**Reseller** = a partner you authorize to manage a subset of your organizations.
+</Callout>
 
-- Your Partner account is created for you, or your existing user is upgraded to Partner after approval.
-- Log in to access the **Admin Console**. You’ll typically see:
-  - **Dashboard** (high-level stats)
-  - **Partner Console:** Resellers (edit), Organizations (edit), Classes (view-only), Teachers (view-only), Students (view-only)
-  - **Account → Users** Create resellers and org admins; in special cases, add teachers and students on the organization’s behalf.
+## Getting started
 
-## What You Can Do
+- Your **Partner** account is created for you (or your existing user is upgraded to Partner after approval).
+- Log in to access the **Admin Console**, which typically includes:
+  - **Dashboard** — high-level stats across your region.
+  - **Partner Console** — manage **Resellers** and **Organizations**; view **Classes**, **Teachers**, **Students**.
+  - **Account → Users** — create users and assign roles (Reseller, Org Admin, Teacher, Student).
 
-- Create and manage **Resellers**  
-- Create and manage **Organizations** (schools, universities, LAN centers, etc.)  
-- Assign **Org Admins** to organizations  
-- Control which **modules/courses** each organization can use  
-- (Optional) Create **users** for an organization (Org Admins, Teachers, Students)  
-- View high-level stats (resellers, organizations, classes, teachers, students)
+## What you can do
 
-## How-To Steps
+- Create and manage **Resellers**.  
+- Create and manage **Organizations** (schools, universities, LAN centers, etc.).  
+- Assign **Org Admins** to organizations.  
+- Control which **modules/courses** each organization can use.  
+- (Optional) Create users for an org (**Org Admins**, **Teachers**, **Students**).  
+- Monitor usage across resellers and organizations.
 
-### **Create a Reseller**
+## How-to steps
 
-1. Go to **Account → Users**.  
-2. Click **Create a New Reseller**.  
-3. Enter name and email (country and contact number optional).  
-4. Click **Submit** — the reseller will receive their login details by email.
+### Create a Reseller
+1. Go to **Account → Users → Create User**.  
+2. Enter details and set **Role = Reseller**.  
+3. Save — the Reseller receives login details by email.
 
 ### Create an Organization
-
 1. Go to **Organizations → Create Organization**.  
-2. Enter the organization’s name and upload a logo (optional).  
-3. Set **Max Students** and **Max Teachers** (license limits).  
-4. Assign one or more **Org Admins** (create them first if needed).  
+2. Enter the organization’s **Name** and upload a logo (optional).  
+3. Set license limits: **Max Students**, **Max Teachers** (and classes if applicable).  
+4. Assign one or more **Org Admins** (create the user first if needed).  
 5. Select the **modules/courses** the org can access.  
 6. Click **Submit**.
 
-### **Edit an Organization**
-
+### Assign or add an Org Admin (later)
 1. Go to **Organizations**, find the org → **Edit**.  
-2. Update quotas, admins, and available modules/chapters.  
+2. In **Admins**, add the user (or create them under **Account → Users** with **Role = Org Admin**).  
+3. Save.
+
+### Edit an Organization
+1. Go to **Organizations**, find the org → **Edit**.  
+2. Update quotas, Org Admins, and available modules/courses (and chapters if applicable).  
 3. Click **Save**.
 
-### **Quick Checks**
+### (Optional) Create Teachers/Students for an org
+1. Go to **Account → Users → Create User**.  
+2. Enter details, set **Role = Teacher** or **Student**, and assign the correct **Organization**.  
+3. (If Teacher) add them to the appropriate **Classroom(s)**.  
+4. Save and share credentials with the org as needed.
 
-- The **Dashboard** shows totals. Click any card (e.g., **Total Classes**) to jump to its detailed list.
+## Quick checks
+
+- Use the **Dashboard** for totals (orgs/classes/teachers/students).  
+  Click any card (e.g., **Total Classes**) to jump to the detailed list.
 
 ## FAQs
 
-- **I can’t create another Partner.** That’s expected—only platform owners can create Partner accounts.  
-- **An Org Admin can’t see their organization.** Edit the org and make sure the correct Org Admin is assigned, then have them log out/in.  
-- **Where do I change courses for an organization?** Open the org in **Organizations → Edit** and toggle modules/chapters there.  
-- **Deleting vs. deactivating?** Prefer **Deactivate** (if available). Deleting removes access and may archive data.
+- **Can I create another Partner?**  
+  No. Only platform owners can create Partner accounts.
+
+- **An Org Admin can’t see their organization.**  
+  Open **Organizations → Edit** and ensure they’re assigned. Have them sign out and back in.
+
+- **Where do I change modules/courses for an organization?**  
+  In **Organizations → Edit** under the modules/courses section for that org.
+
+- **Delete vs. deactivate?**  
+  Prefer **Deactivate** (if available) to preserve history. **Delete** removes access and may archive data.
