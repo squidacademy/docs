@@ -65,7 +65,9 @@
         },
         {
           "group": "Requests",
-          "pages": ["/platform/privacy-request-form"]
+          "pages": [
+            "/platform/privacy-request-form"
+          ]
         }
       ]
     },
@@ -85,9 +87,7 @@
         {
           "group": "Tournament",
           "pages": [
-            "/user-guides/team-captains",
-            "/user-guides/players",
-            "/user-guides/tournament-admins"
+            "user-guides/tournament/untitled-page"
           ]
         }
       ]
@@ -97,7 +97,9 @@
       "groups": [
         {
           "group": "Common questions",
-          "pages": ["/faqs"]
+          "pages": [
+            "/faqs"
+          ]
         }
       ]
     }
