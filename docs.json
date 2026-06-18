@@ -78,6 +78,12 @@
           "pages": [
             "/platform/privacy-request-form"
           ]
+        },
+        {
+          "group": "Programs",
+          "pages": [
+            "untitled-page"
+          ]
         }
       ]
     },
