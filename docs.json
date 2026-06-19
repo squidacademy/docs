@@ -82,7 +82,9 @@
         {
           "group": "Programs",
           "pages": [
-            "untitled-page"
+            "untitled-page",
+            "language",
+            "education"
           ]
         }
       ]
