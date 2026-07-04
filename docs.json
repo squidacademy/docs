@@ -2,7 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Squid Academy Knowledge Center",
-  "description": "Role-based guides, how-tos, and policies for the LMS and tournament platform—built for partners, schools, teachers, students, and teams.",
+  "description": "Role-based guides, how-tos, and policies for the LMS and tournament platform - built for partners, schools, teachers, students, and teams.",
   "colors": {
     "primary": "#09BECF",
     "light": "#F4F2F3",
@@ -11,7 +11,7 @@
   "logo": {
     "light": "/public/images/logo-light.png",
     "dark": "/public/images/logo-dark.png",
-    "href": "https://squid.academy"
+    "href": "https://squid..gg"
   },
   "favicon": {
     "light": "/public/images/favicon.svg",
@@ -55,10 +55,10 @@
             "/platform/data-retention-deletion",
             "/platform/your-privacy-rights",
             "platform/safeguarding-and-child-protection-policy",
-            "platform/untitled-page-1",
-            "platform/untitled-page-2",
+            "platform/academic-integrity-plagiarism-policy",
+            "platform/internal-quality-assurance-policy",
             "platform/untitled-page-4",
-            "platform/untitled-page-5",
+            "platform/thailand-compliance-addendum",
             "platform/india-compliance-addendum"
           ]
         },
